@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="Homepage.css">
+   <link rel="stylesheet" href="media-992.css">
+   <title>JC</title>
+</head>
+<body>
+   <div class="mainWrapper">
+<!-- TOP NAV SECTION -->
+      <nav>
+         <div class="logo">
+            <a href="#home"><p class="logoMobile">J</p><p class="logoMobile logoMobile-color">C</p></a>
+            <a href="#home"><p class="logo1">JESSIE.</p><p class="logo2">CUNA</p></a>
+         </div>
+         <div class="navBtn">
+            <div class="btnWrapper"><a href="#home">Home</a></div>
+            <div class="btnWrapper"><a href="#about">About</a></div>
+            <div class="btnWrapper"><a href="#project">Projects</a></div>
+            <div class="btnWrapper"><a href="#contact">Contact</a></div>
+         </div>
+      </nav>
+<!-- home section -->
+      <div id="home" class="home">
+         <div class="hero-wrapper">
+            <div class="hero-text">
+               <div class="intro">
+                  <p class="intro-name">Hi!👋, I'm Jessie Cuna.</p>
+                  <h1><strong>Web</strong> Developer</h1>
+                  <p >Feel free to explore my portfolio, check out my<br>projects, and don't hesitate to reach out.🚀</p>
+               </div>
+               <div class="social-link">
+                  <a onclick="openGmail()" href=""><img src="./icon/Gmail.svg"></a>
+                  <a onclick="openLinkedIn()" href=""><img src="./icon/Linkedin.svg"></a>
+                  <a onclick="openGitHub()" href=""><img src="./icon/Github.svg"> </a>
+                  <a onclick="openMessenger()" href=""><img src="./icon/Messenger.svg"></a>
+               </div>
+               <div class="download-cv">
+                  <a href="#contact">Contact me</a>
+                  <button onclick="downloadCV()">Resume <img src="./icon/Download.svg"></button>
+               </div>
+            </div>
+            <div class="hero-logo">
+               <img src="./icon/meIcon.svg" alt="Me">
+            </div>
+         </div>
+      </div>
+
+<!-- ABOUT SECTION  -->
+      <div id="about" class="about">
+         <h3><strong>About</strong> Me</h3>
+         <div class="about-wrapper">
+            <div class="about-cards">
+               <h5>What I Do.</h5>
+
+               <li>I specialize in crafting clean and efficient code to bring ideas to life on the web.</li>
+               <li>From front-end development using technologies like HTML5, CSS3, and JavaScript to back-end development with Node.js and Laravel, I love turning concepts into responsive and user-friendly websites.</li>
+               <li>Also experience working with web development frameworks and libraries, such as React.</li>
+            </div>
+            <div class="about-cards">
+               <h5>Why Choose Me?</h5>
+               <li><img src="./icon/list-style.svg">Continuous Learner</li>
+               <li><img src="./icon/list-style.svg">Collaborative Spirit</li>
+               <li><img src="./icon/list-style.svg">Passion for Excellence</li>
+               <li><img src="./icon/list-style.svg">Commitment to Deadlines</li>
+               <li><img src="./icon/list-style.svg">Adaptable and Agile</li>
+            </div>
+            <div class="about-cards">
+               <h5>Educational Background :</h5>
+               <li><img src="./icon/course.svg">BS Information Technology</li>
+               <li><img src="./icon/education.svg">PIT Tabango Campus</li>
+               <li><img src="./icon/location.svg">Otabon, Tabango, Leyte</li>
+               <li><img src="./icon/list-style.svg">2023</li>
+            </div>
+         </div>
+         <h4><strong>Technologies</strong></h4>
+         <div class="tech last-container">
+            <div><img src="./icon/tech/PHP.svg"></div>
+            <div><img src="./icon/tech/MySQL.svg"></div>
+            <div><img src="./icon/tech/React.svg"></div>
+            <div><img src="./icon/tech/Laravel.svg"></div>
+            <div><img src="./icon/tech/JavaScript.svg"></div>
+            <div><img src="./icon/tech/Html.svg"></div>
+            <div><img src="./icon/tech/CSS.svg"></div>
+            <div><img src="./icon/tech/GIT.svg"></div>
+            <div><img src="./icon/tech/Github.svg"></div>               
+         </div>
+      </div>
+
+<!-- project section  -->
+      <div id="project" class="project">
+         <h3><strong>My</strong> Works</h3>
+         <div class="project-container project-container-reverse">
+            <div class="project-text">
+               <h4>POS SYSTEM</h4>
+               <p>This is a POS system that allows user to make transsaction, manage their products, stocks and monitor the sales.</p>
+               <h4>Tech use</h4>
+               <div class="tech-use">
+                  <small>VB.net</small>
+                  <small>GunaUI</small>
+                  <small>MySQL</small>
+                  <small>MySQL&nbsp;Connector</small>
+                  <small>Xampp</small>
+               </div>
+               <button>Repository <img src="./icon/tech/Github.svg"></button>
+            </div>
+            <div id="project-img" class="project-img">
+               <div class="visit-site-cover"><a href="">View site <img src="./icon/visitsite.svg"></a></div>
+               <video id="projectVideo" src="./v1.mp4" autoplay="1" loop="1" muted="1"></video>
+            </div>
+         </div>
+
+         <div class="project-container">
+            <div id="project-img" class="project-img">
+               <div class="visit-site-cover"><a href="">View site <img src="./icon/visitsite.svg"></a></div>
+               <video id="projectVideo" src="./v1.mp4" autoplay="1" loop="1" muted="1"></video>
+            </div>
+            <div class="project-text">
+               <h4>SCHOOL MANAGEMENT SYSTEM</h4>
+               <p>This system allows the teachers to direct manage and send report to the registrar and also the students an view grades through portal.</p>
+               <h4>Tech use</h4>
+               <div class="tech-use">
+                  <small>HTML5</small>
+                  <small>CSS3</small>
+                  <small>PHP</small>
+                  <small>MySQL</small>
+                  <small>Xampp</small>
+               </div>
+               <button>Repository <img src="./icon/tech/Github.svg"></button>
+            </div>
+         </div>
+
+         <div class="project-container last-container project-container-reverse">
+            <div class="project-text">
+               <h4>COMMING SOON</h4>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum earum eaque iusto nemo, provident, corrupti et ea aut deserunt nihil modi cumque, suscipit voluptate?</p>
+               <h4>Tech use</h4>
+               <div class="tech-use">
+                  <small>N/A</small>
+                  <small>N/A</small>
+                  <small>N/A</small>
+                  <small>N/A</small>
+               </div>
+               <button>Repository <img src="./icon/tech/Github.svg"></button>
+            </div>
+            <div id="project-img" class="project-img">
+               <div class="visit-site-cover"><a href="">View site <img src="./icon/visitsite.svg"></a></div>
+               <video id="projectVideo" src="./v1.mp4" autoplay="1" loop="1" muted="1"></video>
+            </div>
+         </div>
+      </div>
+
+<!-- contact section  -->
+      <div id="contact" class="contact">
+         <h3><strong>Contact</strong> Me</h3>
+         <form action="">
+            <div class="mail-con">
+               <div class="input-wrapper contact-area">
+                  <label for="" class="label">Fullname *</label>
+                  <input placeholder="Fullname" id="name" type="text" required>
+                  <label for="" class="label">Phone number ( optional )</label>
+                  <input placeholder="Phone number" id="number" type="text">
+                  <label for="" class="label">Email Address *</label>
+                  <input placeholder="example@sample.com" id="email" type="email" required>
+               </div>
+               <div class="input-wrapper txt-area">
+                  <label for="" class="label">Message *</label>
+                  <textarea required name="" id="msg" cols="30" rows="10" placeholder="Your message here..." ></textarea>
+                  <div class="msg-wrapper">
+                     <button type="submit" class="msgbtn">Send <img src="./icon/Send.svg" alt=""></button>
+                  </div>
+               </div>
+            </div>
+         </form>
+
+      </div>
+   </div>
+</body>
+</html>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./script/sendEmail.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="./script/autoplay.js"></script>
+<script src="./script/socialLink.js"></script>
+<script src="./script/downloadCV.js"></script>
