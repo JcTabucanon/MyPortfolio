@@ -1,5 +1,5 @@
 function downloadCV() {
-   var fileID = '1Z1hCGYcyghiVkPAAzLOfhGUgQZFQhh1V';
+   var fileID = '18u75arR5F8aILK9iN5cepNR61E1RmSsi';
    var downloadLink = 'https://drive.google.com/uc?export=download&id=' + fileID;
 
    var link = document.createElement('a');
