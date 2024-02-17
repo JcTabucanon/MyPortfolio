@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+:root{
+   --box-border: .1rem solid #2d3034;
+   --txt-color: #f0f2f5;
+   --card-color-main: #2a2e38;
+   --card-color-dark: #23272f;
+   --card-color-darker: #181a20;
+   --background-color1: #0c0c0e;
+   --background-color2: #161618;
+   --background-color3: #0c0c0e;
+   --background-color4: #141416;
+}
+*{
+   margin: 0;
+   padding: 0;
+   color: var(--txt-color);
+   font-family: sen, roboto, sans-serif;
+}
+body{
+   background-color: var(--background-color2);
+   display: flex;
+   justify-content: center;
+   padding-top: 5rem;
+}
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+main img{
+   width: 40rem;
+}
+div{
+   margin-top: 1rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+p{
+   font-size: 1.5rem;
+   padding: 1rem;
+}
+a{
+   height: 2.5rem;
+   display: flex;
+   font-size: 1.2rem;
+   text-decoration: none;
+   background-color: dodgerblue;
+   /* padding-top: .4rem; */
+   /* padding-bottom: .4rem; */
+   padding-left: .7rem;
+   padding-right: .7rem;
+   border-radius: 6px;
+   align-items: center;
+   justify-content: center;
+}

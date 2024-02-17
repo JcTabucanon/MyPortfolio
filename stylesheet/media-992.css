@@ -1,0 +1,251 @@
+ /* my phone size
+   width: 486px;  
+   height: 945px;  
+*/
+ @media only screen and (min-width: 992px) and (max-width: 1919.98px) {
+   .home{
+      width: 91%;
+      padding-left: 5%;
+      padding-right: 4%;
+   }
+   .hero-wrapper{
+      gap: 5rem;
+   }
+   .about, .project {
+      width: 94%;
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+   .about-wrapper{
+      gap: 3rem;
+   }
+   .about h3, .about h4, .project h3, .contact h3{
+      font-size: 2rem;
+   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+   .home{
+      width: 100%;
+      padding: 0;
+   }
+   .hero-wrapper{
+      gap: 2rem;
+   }
+   .about, .project, .contact{
+      width: 96%;
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+   .hero-text h1{font-size: 3rem;}
+   .hero-text p{font-size: .8rem; padding-top: 1rem;}
+
+   .hero-logo img{
+      width: 20rem;
+   }
+   .download-cv button{font-size: 1.1rem;}
+   .download-cv svg{
+      width: 1.1rem;
+      height: 1.1rem;
+   }
+   .about h3, .about h4, .project h3, .contact h3{
+      font-size: 2rem;
+   }
+   .about-wrapper{
+      gap: 2.5rem;
+   }
+   .tech{
+      gap: 2.4rem;
+   }
+   .tech div{
+      width: 2.8rem;
+      height: 2.8rem;
+   }
+   .tech div svg{
+      width: 1.8rem;
+      height: 1.8rem;
+   }
+   .project-img{
+      width: 22.8rem;
+      height: 20rem;
+   }
+   .mail-con{
+      width: 42rem;
+   }
+}
+
+ /* Small Devices (Tablets) */
+@media only screen and  (min-width: 660px) and (max-width: 767.98px) {
+   /* Styles for tablets */
+   nav{height: 4rem;}
+   .logo{padding-left: 1rem;}
+   .logo a{font-size: 1.8rem;}
+   .navBtn{
+      padding-right: 1rem !important; 
+      gap: .6rem !important;
+   }
+   .navBtn a{
+      padding: 6px !important;
+   }
+   .logoMobile{
+      display: block !important;
+   }
+   .logo1, .logo2{
+      display: none!important;
+   }
+
+   .hero-wrapper{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+   }
+   .hero-logo img{
+      width: 75%;
+   }
+   
+   .project{
+      width: 100%;
+      padding: 0;
+   }
+   .project-container{
+      width: 100%;
+      gap: .7rem;
+   }
+   .project-text{
+      width: 17rem;
+      align-items: normal;
+   }
+   .project-img{
+      width: 17rem;
+
+   }
+
+   .mail-con{
+      width: 20rem;
+      flex-direction: column;
+   } 
+   .contact-area{
+      width: 100%;
+   }
+   .txt-area{
+      width: 100%;
+   }
+   .txt-area textarea{
+      resize: none;
+      padding: 1rem;
+   } 
+ }
+
+
+@media only screen and (max-width: 659.98px) {
+   nav{height: 4rem;}
+   .logo{padding-left: 1rem;}
+   .logo a{font-size: 1.8rem;}
+   .navBtn{
+      padding-right: 1rem !important; 
+      gap: .6rem !important;
+   }
+   .navBtn a{
+      padding: 6px !important;
+   }
+   .logoMobile{
+      display: block !important;
+   }
+   .logo1, .logo2{
+      display: none!important;
+   }
+   .hero-wrapper{
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+   }
+   .hero-logo img{
+      width: 70%;
+   }
+
+/* reserse project box  */
+   .project-container{
+      gap: 0;
+   }
+   .project-container-reverse{
+      align-items: center;
+      flex-direction: column-reverse;
+   }
+   .project-text{
+      width: 20rem;
+      height: 18rem;
+      align-items: normal;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-top: none;
+   }
+   .project-img{
+      width: 22rem;
+      height: 15rem;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+   }
+   .tech-use{
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 1rem;
+      padding-top: 1rem;
+   }
+   .tech-use small{
+      font-size: .8rem;
+   }
+
+
+   .mail-con{
+      width: 20rem;
+      flex-direction: column;
+   } 
+   .contact-area{
+      width: 100%;
+   }
+   .txt-area{
+      width: 100%;
+   }
+   .txt-area textarea{
+      resize: none;
+      padding: 1rem;
+   } 
+}
+
+@media only screen and (max-height: 790px) and (max-width: 767.98px){
+   .home{
+      align-items: center;
+   }
+   .hero-wrapper{
+      border: 1px solid green;
+      gap: 0;
+      margin-top: 4.5rem;
+   }
+   .hero-logo img{
+      width: 67%;
+   }
+   .mail-con{
+      margin-bottom: 3rem;
+   }
+}
+@media only screen and (max-height: 790px) and (min-width: 768px){
+   .home{
+      align-items: center;
+   }
+   .hero-wrapper{
+      gap: 0;
+      margin-top: 4.5rem;
+   }
+}
+@media only screen and (min-height: 1080.98px){
+   .home, .contact{
+      height: 1001px !important;
+   }
+   .project{
+      min-height: fit-content;
+   }
+}
