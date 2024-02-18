@@ -23,7 +23,7 @@
          </div>
       </nav>
 <!-- home section -->
-      <div id="home" class="home">
+      <section id="home" class="home">
          <div class="hero-wrapper">
             <div class="hero-text">
                <div class="intro">
@@ -46,10 +46,10 @@
                <img src="./icon/meIcon.svg" alt="Me">
             </div>
          </div>
-      </div>
+      </section>
 
 <!-- ABOUT SECTION  -->
-      <div id="about" class="about">
+      <section id="about" class="about">
          <h3><strong>About</strong> Me</h3>
          <div class="about-wrapper">
             <div class="about-cards">
@@ -87,10 +87,10 @@
             <div><img src="./icon/tech/GIT.svg"></div>
             <div><img src="./icon/tech/Github.svg"></div>               
          </div>
-      </div>
+      </section>
 
 <!-- project section  -->
-      <div id="project" class="project">
+      <section id="project" class="project">
          <h3><strong>My</strong> Works</h3>
          <div class="project-container project-container-reverse">
             <div class="project-text">
@@ -104,18 +104,20 @@
                   <small>MySQL&nbsp;Connector</small>
                   <small>Xampp</small>
                </div>
-               <button>Repository <img src="./icon/tech/Github.svg"></button>
+               <a href="https://github.com/JcTabucanon/Tabango-Water-Park-Ticketing-System">Repository <img src="./icon/tech/Github.svg"></a>
             </div>
-            <div id="project-img" class="project-img">
+            <div class="project-img">
                <div class="visit-site-cover"><a href="./maintenance/maintenance.html">View more <img src="./icon/visitsite.svg"></a></div>
-               <video id="projectVideo" src="./projectVideo/POS System.mp4" autoplay="1" loop="1" muted="1"></video>
+               <video class="projectVideo" src="./projectVideo/POS System.mp4" autoplay="1" loop="1" muted="1"></video>
             </div>
          </div>
 
          <div class="project-container">
-            <div id="project-img" class="project-img">
+            <div class="project-img">
                <div class="visit-site-cover"><a href="./maintenance/maintenance.html">View more <img src="./icon/visitsite.svg"></a></div>
-               <video id="projectVideo" src="./projectVideo/v1.mp4" autoplay="1" loop="1" muted="1"></video>
+               <!-- <video class="projectVideo" src="./projectVideo/v1.mp4" autoplay="1" loop="1" muted="1"></video> -->
+               <img src="./projectVideo/SCHOOL MANAGEMENT SYSTEM.png">
+
             </div>
             <div class="project-text">
                <h4>SCHOOL MANAGEMENT SYSTEM</h4>
@@ -128,46 +130,48 @@
                   <small>MySQL</small>
                   <small>Xampp</small>
                </div>
-               <button>Repository <img src="./icon/tech/Github.svg"></button>
+               <a href="https://github.com/JcTabucanon/PITT_grade_inquiry">Repository <img src="./icon/tech/Github.svg"></a>
             </div>
          </div>
 
          <div class="project-container last-container project-container-reverse">
             <div class="project-text">
-               <h4>COMMING SOON</h4>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum earum eaque iusto nemo, provident, corrupti et ea aut deserunt nihil modi cumque, suscipit voluptate?</p>
+               <h4>ALLUMNI MANAGEMENT SYSTEM</h4>
+               <p>This system is made to ease managing the data for allumni it let them add and send survey form for the allumni.<br><br>  </p>
                <h4>Tech use</h4>
                <div class="tech-use">
-                  <small>N/A</small>
-                  <small>N/A</small>
-                  <small>N/A</small>
-                  <small>N/A</small>
+                  <small>PHP</small>
+                  <small>HTML</small>
+                  <small>CSS</small>
+                  <small>Bootstrap</small>
+                  <small>JavaScript</small>
                </div>
-               <button>Repository <img src="./icon/tech/Github.svg"></button>
+               <a href="https://github.com/JcTabucanon/PIT_ALUMNI">Repository <img src="./icon/tech/Github.svg"></a>
             </div>
-            <div id="project-img" class="project-img">
+            <div class="project-img">
                <div class="visit-site-cover"><a href="./maintenance/maintenance.html">View more <img src="./icon/visitsite.svg"></a></div>
-               <video id="projectVideo" src="./projectVideo/v1.mp4" autoplay="1" loop="1" muted="1"></video>
+               <img src="./projectVideo/Allumni.png">
+               <!-- <video class="projectVideo" src="./projectVideo/v1.mp4" autoplay="1" loop="1" muted="1"></video> -->
             </div>
          </div>
-      </div>
+      </section>
 
 <!-- contact section  -->
-      <div id="contact" class="contact">
+      <section id="contact" class="contact">
          <h3><strong>Contact</strong> Me</h3>
          <form action="">
             <div class="mail-con">
                <div class="input-wrapper contact-area">
-                  <label for="" class="label">Fullname *</label>
-                  <input placeholder="Fullname" id="name" type="text" required>
-                  <label for="" class="label">Phone number ( optional )</label>
+                  <label for="name" class="label">Fullname *</label>
+                  <input placeholder="Fullname" id="name" type="text" required="1">
+                  <label for="number" class="label">Phone number ( optional )</label>
                   <input placeholder="Phone number" id="number" type="text">
-                  <label for="" class="label">Email Address *</label>
-                  <input placeholder="example@sample.com" id="email" type="email" required>
+                  <label for="email" class="label">Email Address *</label>
+                  <input placeholder="example@sample.com" id="email" type="email" required="1">
                </div>
                <div class="input-wrapper txt-area">
-                  <label for="" class="label">Message *</label>
-                  <textarea required name="" id="msg" cols="30" rows="10" placeholder="Your message here..." ></textarea>
+                  <label for="msg" class="label">Message *</label>
+                  <textarea required="1" name="msg" id="msg" cols="30" rows="10" placeholder="Your message here..." ></textarea>
                   <div class="msg-wrapper">
                      <button type="submit" class="msgbtn">Send <img src="./icon/Send.svg" alt=""></button>
                   </div>
@@ -175,7 +179,7 @@
             </div>
          </form>
 
-      </div>
+      </section>
    </div>
 </body>
 </html>
