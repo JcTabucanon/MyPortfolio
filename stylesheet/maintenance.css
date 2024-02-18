@@ -23,15 +23,17 @@ body{
    padding-top: 5rem;
 }
 main{
+   width: 100vw;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
 }
 main img{
-   width: 40rem;
+   max-width: 30rem;
 }
 div{
+   width: 100%;
    margin-top: 1rem;
    display: flex;
    flex-wrap: wrap;
@@ -41,18 +43,22 @@ div{
 p{
    font-size: 1.5rem;
    padding: 1rem;
+   text-align: center;
+
 }
 a{
    height: 2.5rem;
    display: flex;
    font-size: 1.2rem;
    text-decoration: none;
-   background-color: dodgerblue;
-   /* padding-top: .4rem; */
-   /* padding-bottom: .4rem; */
+   background-color: var(--card-color-main);
+
    padding-left: .7rem;
    padding-right: .7rem;
-   border-radius: 6px;
+   border-radius: 5px;
    align-items: center;
    justify-content: center;
+}
+a:hover{
+   text-decoration: underline;
 }
